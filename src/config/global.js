@@ -1,17 +1,27 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Modelos matemáticos y estadísticos aplicados en big data',
+    descripcionCurso:
+      'Equipos móviles (teléfonos, tabletas, relojes, televisores, neveras inteligentes), dispositivos sencillos, hoy son emisores de información, con Internet como medio, proponiendo canales de emisión, receptores, otros equipos o sitios de almacenaje de datos, esperando ser utilizados de la mejor manera y con la rapidez posible; esa es la vida de hoy, a eso le llaman el Internet de las cosas (IoT)',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal-01.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-01.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-01.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-02.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-03.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-04.png'),
       },
     ],
   },
@@ -32,14 +42,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Analítica de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Modelos matemáticos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Estadística descriptiva',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Estadística inferencial',
+            hash: 't_1_3',
           },
         ],
       },
@@ -48,14 +70,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de toma de decisiones',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Big data',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Paquetes ofimáticos aplicados al modelado de datos',
         desarrolloContenidos: true,
       },
     ],

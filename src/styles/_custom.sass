@@ -2,13 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 17%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 9%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 68%
+    right: 20%    
+  &-4
+    animation: rotate 3.5s  ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 16% 
+    
 
 
 @keyframes float1
@@ -17,3 +28,142 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes rotate 
+  0%
+    transform: rotate(0deg);
+  
+  100%
+    transform: rotate(90deg);
+    
+
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+    color: #000    
+
+.text-color
+  color: white !important   
+
+.tarjeta-verde
+     background-color: #EDF5E6   !important
+
+.tabs-a__tab    
+  background-color: #E8E8E8 !important
+
+.tabs-a__tab.tabs-a__tab__selected  
+  background-color: #3d46c2 !important     
+
+.acordion__activo 
+    background-color: #FCFDEA !important 
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgb(220, 231, 54) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.img-infografica__item__numero
+    color: white !important
+
+
+.contenido-tarjeta
+  background-color: #F8FAD6 !important
+
+.color-verde-contenido-tarjeta
+   background-color:  #CFE5B6  !important
+
+.h-tarjetas
+  height: 400px !important 
+
+.tarjeta.tarjeta-acordeon-gris 
+   .acordion__accion__btn--a
+      background-color: #dce736 !important
+
+.tarjeta.tarjeta-acordeon-gris.acordion__activo      
+  .acordion__accion__btn--a
+    background-color: #dce736 !important    
+
+.tarjeta-acordeon-gris
+    background-color: #EFEFEF  
+
+.contenido-tarjeta-verde
+  background-color: #BADA97  !important
+
+.contenido-tarjeta-descargas  
+  background-color: #BADA97 !important 
+
+.tarjeta.tarjeta-acordeon-verde.acordion__activo 
+  background-color: #EDF6E4 !important
+
+.tarjeta.tarjeta-acordeon-verde 
+   .acordion__accion__btn--a
+      background-color: #dce736 !important
+
+.tarjeta.tarjeta-acordeon-verde.acordion__activo      
+  .acordion__accion__btn--a
+    background-color: #dce736 !important    
+
+.tarjeta-acordeon-verde
+    background-color: #EFEFEF    
+
+.color-primera-tarjeta
+  background-color: #75b62f !important
+
+.color-tercera-tarjeta
+  background-color: #A1C877 !important
+
+.color-cuarta-tarjeta
+  background-color: #DFE57B !important  
+
+.color-cajon-naranja-fuerte
+  background-color: #F67409    !important  
+
+.color-cajon-naranja-calido
+  background-color: #FDDCC0 !important 
+
+.he-tarjetas
+  height: 392px !important
+
+.tarjeta-avatar
+  width: 310px !important
+  height: 630px !important
+
+.tarjeta-pagada 
+  --bs-gutter-y: 0 !important 
+  display: flex !important 
+  flex-wrap: wrap !important 
+  margin-top: calc(var(--bs-gutter-y) * -1) !important 
+  margin-right: calc(var(--bs-gutter-x)/ -2) !important 
+  margin-left: calc(var(--bs-gutter-x)/ -2)  !important 
+
+.tarjeta-avatar-tem4
+  width: 310px !important
+  height: 630px !important 
+
+
+.tarjeta-avatar-tem4  
+  .img 
+    position: absolute !important
+    left: 50% !important
+    top: 0 !important
+    transform: translateX(-50%) !important
+    display: block !important
+    width: 150px !important
+    margin: 0 auto  !important
+

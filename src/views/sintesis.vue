@@ -2,20 +2,28 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+   
+    .row
+      .col-md-10
+        .titulo-sexto.color-primario.mb-3
+          h5 Gestión del desarrollo administrativo e innovación
+          p.mt-3 Síntesis: Introducción a la administración.          
+      .col-md-1.d-flex.flex-row-reverse
+            figure
+              img(src="@/assets/curso/temas/logoSena.png", alt="alt")          
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 El siguiente mapa conceptual integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo. Síntesis
+            p Anexo. Síntesis              
 
 </template>
 
