@@ -75,7 +75,7 @@
                   h3.mt-3 Herramientas, modelos e instrumentos para la toma de decisiones
                   p.text-small Ahora, exploremos en el siguiente documento, las diferentes herramientas, modelos o instrumentos que nos pueden servir para la toma de decisiones. 
               .col-lg-1.mt-4
-                  a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Ejercicios_aplicación_matemática_financiera.pdf')" target="_blank")
+                  a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Herramientas_modelos_instrumentos_toma_decisiones.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download  
 </template>

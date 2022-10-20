@@ -130,31 +130,93 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Analítica de datos',
+      referencia:
+        'Virtual Training Lteam. (2016). Análisis de Datos (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/sv6yaVunVms',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Big data',
+      referencia: 'EDteam. (2019). ¿Qué es el Big Data? (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/M26iIqmqWkI',
+    },
+    {
+      tema: 'Paquetes ofimáticos aplicados al modelado de datos ',
+      referencia: 'Concepto.de. (s.f.). Base de datos.',
+      tipo: 'Página web',
+      link: 'https://concepto.de/base-de-datos/#ixzz7d75P9SNx',
+    },
+    {
+      tema: 'Paquetes ofimáticos aplicados al modelado de datos',
+      referencia:
+        'Powerdata.es. (2017). 10 técnicas de análisis de datos para estadísticas de big data. ',
+      tipo: 'Página web',
+      link:
+        'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/10-tecnicas-de-analisis-de-datos-para-estadisticas-de-big-data',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Analítica de datos',
+      significado:
+        'permite gestionar acciones de mejora de forma rápida y eficaz, e igualmente es muy útil en la toma de decisiones proactivas para anticipar eventos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Big data',
+      significado:
+        'hace referencia a la acumulación de grandes cantidades de datos, así como su análisis por medio de máquinas y equipos de cómputo, con el fin de generar o perfilar patrones de comportamiento de información.',
+    },
+    {
+      termino: 'Cualitativo',
+      significado:
+        'toma atributos que describen cualidades y características específicas que describen una población objeto de estudio, sin utilizar para esto algún parámetro numérico.',
+    },
+    {
+      termino: 'Cuantitativo',
+      significado:
+        'se puede expresar con valores numéricos, pueden ser de tipo discreto o continuos.',
+    },
+    {
+      termino: 'Decisión',
+      significado:
+        'es la determinación para actuar ante una situación que presenta varias alternativas. La palabra proviene del latín decisio, qué significa opción tomada entre otras posibilidades.',
+    },
+    {
+      termino: 'Desviación estándar',
+      significado:
+        'es un índice numérico de mide la dispersión con respecto al parámetro que agrupa la distribución de los datos, midiendo el grado de alejamiento (el dato disperso n menos la medida de tendencia central como la media) con respecto a esta, de cada dato individualmente; luego se suman todas estas diferencias, dividido por el número de datos; realmente es un promedio de las diferencias de los datos con respecto a la media. (Nota: se toma la distribución de datos como la población objeto de estudio denominado n).',
+    },
+    {
+      termino: 'Estadística',
+      significado:
+        'rama de la matemática que recoge, organiza, jerarquiza, ordena, clasifica y analiza datos e información.',
+    },
+    {
+      termino: 'Inferencia',
+      significado:
+        'hace deducciones a partir de muestras (que deben tener todas las características y propiedades de la población), de allí mide tendencias, infiere propiedades y hasta define conclusiones.',
+    },
+    {
+      termino: 'Modelo matemático',
+      significado:
+        'es la representación simbólica en lenguaje o términos matemáticos, de cualquier evento o fenómeno físico, químico, económico, social o tecnológico',
+    },
+    {
+      termino: 'Población',
+      significado:
+        'se refiere a la cantidad de individuos (personas o grupos de personas), animales (o grupo de estos), cosas o eventos que sean objeto de un estudio o investigación en particular.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Castillo, J. A. (2018). Big Data. IFCT128PO. IC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hillier, F. S. y Lieberman, G. J. (2006). Introducción a la investigación de operaciones (8va ed.). Mc Graw Hill.',
       link: '',
     },
   ],
