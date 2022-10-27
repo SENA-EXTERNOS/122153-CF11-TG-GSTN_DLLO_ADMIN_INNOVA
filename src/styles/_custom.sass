@@ -19,6 +19,7 @@
     position: absolute
     top: 20%
     right: 16% 
+    z-index: -1
     
 
 
@@ -37,6 +38,7 @@
     transform: rotate(90deg);
     
 
+    
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
     color: #000    
@@ -46,6 +48,7 @@
 
 .tarjeta-verde
      background-color: #EDF5E6   !important
+     margin-left: 2rem !important
 
 .tabs-a__tab    
   background-color: #E8E8E8 !important
@@ -142,7 +145,10 @@
 
 .tarjeta-avatar
   width: 310px !important
-  height: 630px !important
+  height: 714px !important
+@media (max-width: 500px)
+  .tarjeta-avatar 
+    height: 575px !important  
 
 .tarjeta-pagada 
   --bs-gutter-y: 0 !important 
@@ -155,3 +161,41 @@
 
 .boton *, .boton--sm * 
   color: #f3f9ff !important 
+
+.tabs-a__tab 
+    width: 115%;
+    background-color:#E8E8E8
+
+@media (max-width: 500px)
+  .tabs-a__tab 
+    width: 100% 
+
+
+.lista-ul li > i:first-of-type
+    color: #3D46C2 
+
+.banner-principal__img 
+  padding-top: 0rem !important
+  padding-bottom: 0rem !important
+  margin-left: -14%
+  width: 42%
+  margin-top: -7px 
+  z-index: 1 !important
+
+.banner-principal__descripcion 
+    margin-right: 100px  
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/temas/banner-interno.png") !important             
+
+.tarjeta-verde-claro
+  background-color: #F1F5AE !important 
+
+.h-azul
+  width: 17rem
+  height: 25rem
+
+@media (max-width: 500px)
+  .h-azul 
+    width: 15rem
+    height: 37rem   

@@ -15,7 +15,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/introduccion/introduccion.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p #[span.text-bold Apreciado aprendiz, bienvenido a este componente formativo] donde se estudiarán conceptos como big data, domótica, bases de datos, los cuales son muy conocidos hoy en día. Se pretende formalizar el lenguaje apropiando estos conceptos, mostrando las aplicaciones y la relativa importancia que tienen, y cómo van de la mano con conceptos tradicionales de la matemática y la estadística, para llegar a analizar con herramientas ofimáticas, grandes cantidades de información que serán valiosas en la toma asertiva de decisiones. 
+        p Apreciado aprendiz, bienvenido a este componente formativo donde se estudiarán conceptos como #[i big data], domótica, bases de datos, los cuales son muy conocidos hoy en día. Se pretende formalizar el lenguaje apropiando estos conceptos, mostrando las aplicaciones y la relativa importancia que tienen, y cómo van de la mano con conceptos tradicionales de la matemática y la estadística, para llegar a analizar con herramientas ofimáticas, grandes cantidades de información que serán valiosas en la toma asertiva de decisiones. 
       
 
     .col-sm-8.mb-3

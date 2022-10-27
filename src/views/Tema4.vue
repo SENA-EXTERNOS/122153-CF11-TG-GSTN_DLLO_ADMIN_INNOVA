@@ -51,7 +51,7 @@
       .tarjeta
         .row.justify-content-left
           .col-sm-8.mb-3
-            p.mt-5 Conforme la tecnología ha evolucionado y se ha incrementado el volumen de datos, las herramientas convencionales de los paquetes ofimáticos se fueron quedando cortas para el análisis “estático” de las antiguas bases de datos que cambiaban lentamente. Hoy en día, estas herramientas son más poderosas, capaces de analizar “dinámicamente” datos en tiempo real, conforme van cambiando con #[i “delay”] en segundo y no en semanas o meses como ocurría antes. 
+            p.mt-5 Conforme la tecnología ha evolucionado y se ha incrementado el volumen de datos, las herramientas convencionales de los paquetes ofimáticos se fueron quedando cortas para el análisis “estático” de las antiguas bases de datos que cambiaban lentamente. Hoy en día, estas herramientas son más poderosas, capaces de analizar “dinámicamente” datos en tiempo real, conforme van cambiando con “delay” en segundo y no en semanas o meses como ocurría antes. 
             p Es necesario almacenar la información similar para poder consultarla en el momento preciso; antiguamente, en las organizaciones, las bases de datos eran sus archivos físicos, clasificados con diferentes metodologías para ser consultados; eran habitaciones llenas de “legajadores” de color café guardados sistemáticamente. Después llegó la era digital, y en la habitación se archivaban no solo libros físicos, sino “discos compactos”, grabados con datos en pdf, jpg, u otro formato; ahora el cuarto o estancia se ha convertido en el sitio donde se encuentra una gran computadora (servidor), que está interactuando con otras estaciones de trabajo en el mismo edificio o afuera, enviando la información a un tipo de dispositivo móvil en cualquier parte del mundo, en algún momento. Ese es el concepto de base de datos actual, es una interacción dinámica y rápida.
           .col-sm-4.mb-3.mt-5
             figure
@@ -62,12 +62,12 @@
     .tarjeta--container.row.justify-content-center
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema4/img6.png', alt='')
-        .tarjeta.he-tarjetas.color-secundario.p-3
+        .tarjeta.he-tarjetas.tarjeta-verde-claro.p-3
           h2.text-center.mt-5 Estáticas
           p.text-center Antiguos análisis históricos hechos por las compañías hasta hace 10 años, depositados en archivos digitales (memorias USB, discos duros), solo para consulta o lectura.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema4/img7.png' alt='AvatarTop')
-        .tarjeta.he-tarjetas.color-secundario.p-3
+        .tarjeta.he-tarjetas.tarjeta-verde-claro.p-3
           h2.text-center.mt-5 Dinámicas
           p A diferencia de las estáticas, están en constante cambio, entra y sale información en cuestión de segundos.
 
@@ -76,41 +76,41 @@
 
       .row.justify-content-center
         .col-md-12
-          SlyderF(columnas="col-sm-4")
-            .tarjeta.color-acento-contenido.p-3
+          SlyderF(columnas="col-md-4")
+            .tarjeta.color-acento-contenido.p-2.h-azul
               .row.justify-content-center.mb-2
-                .col-sm-2.col-lg-8.mb-4.mb-lg-0
+                .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img8.png' alt='AvatarTop')                  
                 h3.mt-3.texto-centro Bibliográficas
                 p.texto-centro Contienen diverso material de lectura (libros, revistas, etc.), ordenado a partir de información clave como son los datos del autor, editor, año de aparición, área temática o título del libro, entre muchas otras posibilidades.
 
-            .tarjeta.color-acento-contenido.p-5
+            .tarjeta.color-acento-contenido.p-2.h-azul
               .row.justify-content-center.mb-2
-                .col-sm-2.col-lg-8.mb-4.mb-lg-0
+                .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img9.png' alt='AvatarTop')                  
                 h3.mt-3.texto-centro De texto completo
                 p.texto-centro Se manejan con textos históricos o documentales, cuya preservación debe ser a todo nivel y se consideran fuentes primarias.
 
-            .tarjeta.color-acento-contenido.p-5
+            .tarjeta.color-acento-contenido.p-2.h-azul
               .row.justify-content-center.mb-2
-                .col-sm-2.col-lg-9.mb-4.mb-lg-0
+                .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img10.png' alt='AvatarTop')                  
                 h3.mt-3.texto-centro Directorios
                 p.texto-centro Listados enormes de datos personalizados o de direcciones de correo electrónico, números telefónicos, etc. 
 
-            .tarjeta.color-acento-contenido.p-5
+            .tarjeta.color-acento-contenido.p-2.h-azul
               .row.justify-content-center.mb-2
-                .col-sm-2.col-lg-7.mb-2.mb-lg-0
+                .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img11.png' alt='AvatarTop')                  
                 h3.mt-3.texto-centro Especializadas
                 p.texto-centro Bases de datos de información hiperespecializada o técnica, pensadas a partir de las necesidades puntuales de un público determinado que consume dicha información.
 
     p.mt-5 Continuemos este estudio con el sistema de gestión de bases de datos (DBMS, #[i Data Base Magnament System]), el cual es una aplicación (#[i software]) que gestiona no solo una base de datos, sino también varias bases de datos. Es una interfaz que le permite a los usuarios, interactuar con la información que le brindan sus datos, organizados en bases de datos dinámicas y flexibles.                
-    p.mb5 El sistema de gestión de base de datos, a diferencia de las bases de datos, gestiona, controla, aplica principios y reglas a todas esas relaciones que pueden resultar de la interacción de las bases de datos. Ofrece cánones de seguridad, integridad de los datos y procesos rígidos de auditoría, para el buen uso y prácticas nobles en disposición, suministro y recibo de información, procurando que se cumplan las “V” del big data.
+    p.mb5 El sistema de gestión de base de datos, a diferencia de las bases de datos, gestiona, controla, aplica principios y reglas a todas esas relaciones que pueden resultar de la interacción de las bases de datos. Ofrece cánones de seguridad, integridad de los datos y procesos rígidos de auditoría, para el buen uso y prácticas nobles en disposición, suministro y recibo de información, procurando que se cumplan las “V” del #[i big data].
     p.mt-5.mb-5 Los sistemas de gestión de bases de datos pueden clasificarse en varios tipos:
 
     .row.justify-content-center
@@ -126,14 +126,14 @@
             p Capaz de suministrar datos sin duplicación de datos fuente. Esta categoría a su vez, puede dividirse en:
               ul.lista-ul
                   li 
-                    i.lista-ul__vineta
-                    | Una base de datos de acoplamiento libre: requiere acceso a otras bases de datos de componentes.
+                  i.lista-ul__vineta
+                  | Una base de datos de #[span.text-bold acoplamiento libre:] requiere acceso a otras bases de datos de componentes.
                   li 
-                    i.lista-ul__vineta
-                    | Una base de datos de acoplamiento estrecho: utiliza procesos independientes para trabajar en un sistema federado.
+                  i.lista-ul__vineta
+                  | Una base de datos de #[span.text-bold acoplamiento estrecho:] utiliza procesos independientes para trabajar en un sistema federado.
                   li 
-                    i.lista-ul__vineta
-                    | Los sistemas de bases de datos de cadena de bloques: gestionan transacciones financieras y de otros tipos.
+                  i.lista-ul__vineta
+                  | Los sistemas de bases de datos de #[span.text-bold cadena de bloques:] gestionan transacciones financieras y de otros tipos.
       .col-md-5.p-5
        figure 
         img(src='@/assets/curso/temas/tema4/img12.png', alt='alt')  
@@ -144,6 +144,12 @@
      .col-md-8
         figure 
             img(src='@/assets/curso/temas/tema4/img13.png', alt='alt')  
+
+    .row.justify.content-center.my-5
+      ul.lista-ul
+        li
+          i.fas.fa-square
+          b.h5 Herramientas tecnológicas
 
     p.mt-5.mb-5 Finalizamos concluyendo que, el #[i big data] se ha convertido hoy en una prioridad para muchas empresas; así mismo, han surgido abundantes ofertas de administradores de aplicaciones de grandes datos, para atender esta demanda actual de obtener o estructurar información privilegiada a partir de datos (en todas sus formas, características y presentaciones).
     p.mb-5 Conozcamos las herramientas más importantes:

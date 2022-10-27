@@ -7,7 +7,7 @@
       .col-md-10
         .titulo-sexto.color-primario.mb-3
           h5 Gestión del desarrollo administrativo e innovación
-          p.mt-3 Síntesis: Introducción a la administración.          
+          p.mt-3 Síntesis: Modelos matemáticos y estadísticos aplicados en #[i big data ]
       .col-md-1.d-flex.flex-row-reverse
             figure
               img(src="@/assets/curso/temas/logoSena.png", alt="alt")          

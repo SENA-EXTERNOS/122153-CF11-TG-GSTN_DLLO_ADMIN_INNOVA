@@ -29,7 +29,7 @@
             img(src="@/assets/curso/temas/tema3/img2.png", alt="alt")  
         .col-md-8        
           p Son los datos con los que se pueden construir bases de datos, generando campos y registros, los cuales son veraces; se pueden relacionar y articular con otras bases de datos de diferentes fuentes y son datos cuantitativos.
-          p La fecha de nacimiento, el número de la tarjeta de crédito o débito, la información de la cuenta de trading, la dirección de la vivienda, el GPS (Sistema de Posicionamiento Global), son tipos de datos estructurados.
+          p La fecha de nacimiento, el número de la tarjeta de crédito o débito, la información de la cuenta de #[i trading], la dirección de la vivienda, el GPS (Sistema de Posicionamiento Global), son tipos de datos estructurados.
           p Este tipo de datos se dividen en dos categorías:
             ul.lista-ul
                   li 
@@ -116,7 +116,11 @@
                 p La axiología es la ciencia que estudia el valor de las cosas; sin querer entrar en detalles filosóficos, en la gestión de los datos podríamos deducir que el dato por sí solo no tiene valor alguno (teoría subjetivista del valor), pero de la buena depuración, transformación y análisis del dato, al brindar parámetros de decisión, se le otorga valor y es entonces que adquiere la riqueza que fundamenta las decisiones exitosas. Igualmente, existen herramientas poderosas, capaces de extraer de los datos (generalmente no estructurados) información valiosa, en términos de estrategia para las organizaciones.
 
               
-    h3 Métodos, técnicas y análisis de manejo de datos masivos
+    .row.justify.content-center.my-5
+      ul.lista-ul
+        li
+          i.fas.fa-square
+          b.h3 Métodos, técnicas y análisis de manejo de datos masivos
 
     p.mt-5.mb-5 Estudiado el contexto de las herramientas y técnicas tradicionales de análisis de datos aprenderemos, entonces, sobre las herramientas que actualmente se utilizan para el análisis de datos masivos (#[i big data]).
     

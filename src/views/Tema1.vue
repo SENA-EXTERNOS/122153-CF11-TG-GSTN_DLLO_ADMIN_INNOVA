@@ -41,29 +41,23 @@
 
       .col-md-9
         TabsA.color-acento-contenido.mt-5
-          .tarjeta.tarjeta-verde.color-contenido.p-4(class="small-text" titulo="Que sean equivalentes")
+          .tarjeta.tarjeta-verde.color-contenido.p-4( titulo="Que sean equivalentes")
             .row.justify-content-center
-              h4 Que sean equivalentes
               p Se refiere al grado de “acercamiento” de la realidad, con el modelo. Generalmente, se mide de forma porcentual, debiendo cumplir como mínimo un 75 % con respecto al original, para que el modelo sea válido. 
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean objetivos")
             .row.justify-content-center
-              h4 Que sean objetivos
               p Deben encontrarse libres de vicios de: juicio, sensorial, física, social, u otra entidad que distraiga del objetivo de la observación; asimismo, deben someterse a repeticiones, ajustando los parámetros de observación y de comportamiento de la realidad, versus el modelo. Deben validarse con variables no sesgadas.                
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean simples")
             .row.justify-content-center
-              h4 Que sean simples
               p Entre más sencillo, más compresible, calculable, y el modelo es el objetivo.
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean sensibles")
             .row.justify-content-center
-              h4 Que sean sensibles
               p Los modelos no siempre son inflexibles; deben ser flexibles a cambios del comportamiento real, y van articulados con la objetividad y con la equivalencia.
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean estables")
             .row.justify-content-center
-              h4 Que sean estables
               p Las variaciones que se presenten en la realidad, deben ser igualmente correspondientes en magnitud en el modelo; a grandes variaciones reales, grandes variaciones en el modelo y viceversa.
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean universales")
             .row.justify-content-center
-              h4 Que sean universales
               p Se basa en que el modelo debe haber satisfecho procesos de pruebas en diferentes ambientes, que sirvan de referencia general para comportamientos reales, bajo los mismos parámetros.
 
       .col.md-3.mt-5
@@ -144,7 +138,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img9.png", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3.text-center Variable cualitativa 
+              h4.mb-3.text-center Variable cuantitativa 
               p.mb-0 Adquiere características que se pueden expresar con valores numéricos; pueden ser de tipo discreto (se expresan números enteros naturales, por ejemplo, el número de personas en un cine, la cantidad vehículos en un parqueadero) o continuas (se expresan con números decimales, como el peso, la estatura o la velocidad).
         .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="flip-left")
@@ -152,8 +146,8 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img8.png", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3.text-center Variable cuantitativa
-              p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+              h4.mb-3.text-center Variable cualitativa
+              p.mb-0 Toma atributos que describen cualidades y características específicas que describen una población objeto de estudio, sin utilizar parámetros numéricos; pueden ser ordinales (se refieren a un tipo de orden o secuencia, por ejemplo, alto, medio, bajo, generan algún tipo de nivel a seguir) o nominales (se refieren a atributos como el color de un objeto, la intensidad de este, o los sabores que se pueden apreciar en las comidas, no tienen jerarquías).
 
     p.mt-5 Cuando hablamos de estadística descriptiva es importante conocer qué son las tablas de frecuencia, los histogramas y los gráficos.
     p.mt-3 A continuación, estudiaremos cada uno de estos términos:
@@ -225,7 +219,7 @@
       .tarjeta.color-secundario--borde.contenido-tarjeta.p-3(x="35%" y="82%" numero="+")      
           .row.justify-content-center 
             h4.mb-3.text-center Gráfico de barras:  
-            p.mb-0 es la representación, tipo cartesiano, donde el eje X representa las categorías o atributos de la variable (cualitativa o cuantitativa); en el eje Y, se representan las frecuencias (cantidad que presentan estas categorías según los intervalos en que se encuentren), y pueden ser verticales u horizontales, simples o dobles, en dos o tres ejes o dimensiones.
+            p.mb-0 es la representación, tipo cartesiano, donde el #[i eje X] representa las categorías o atributos de la variable (cualitativa o cuantitativa); en el #[i eje Y], se representan las frecuencias (cantidad que presentan estas categorías según los intervalos en que se encuentren), y pueden ser verticales u horizontales, simples o dobles, en dos o tres ejes o dimensiones.
 
     p.mt-5 Desde otro punto de vista, existen distintos tipos de información que, de acuerdo con el uso que se les dé y cómo se representen, generalmente son transversales a las áreas funcionales organizacionales.
     p Uno de ellos, se refiere a las medidas o parámetros de tendencia central, que son números que se ubican buscando el centro de la distribución (concentración) de los datos de un grupo de observaciones, agrupadas o no agrupadas.
@@ -262,7 +256,7 @@
                   h4.mt-5.mb-3.text-center Moda  
                   p.mb-0 La moda es el valor que más se repite o, lo que es lo mismo, el que tiene la mayor frecuencia.
 
-    p.mt-5 Continuemos con las medidas de variabilidad o dispersión, las cuales se definen como las medidas estadísticas orientadas en dar a conocer qué tan lejanas o próximas se encuentran las puntuaciones de una variable, con respecto a la media o promedio aritmético.Estas medidas, son contrarias a las de tendencia central porque, precisamente, miden la “dispersión” o distancia desde el centro de los datos. 
+    p.mt-5 Continuemos con las medidas de variabilidad o dispersión, las cuales se definen como las medidas estadísticas orientadas en dar a conocer qué tan lejanas o próximas se encuentran las puntuaciones de una variable, #[span.text-bol con] respecto a la media o promedio aritmético.Estas medidas, son contrarias a las de tendencia central porque, precisamente, miden la “dispersión” o distancia desde el centro de los datos. 
     p.mt-5.mb-3 Las más conocidas son:
 
     .row.justify-content-center
@@ -291,7 +285,7 @@
             |La estadística inferencial tiene sus propias herramientas y mecanismos para llevar a cabo su objetivo; para esto están los intervalos de confianza, pruebas de hipótesis, desviación estándar, la prueba de chi-cuadrado, entre otras. La regresión se considera otra de las ramas fuertes que, a nivel inferencial, brinda grandes posibilidades a la organización, dando patrones de proyecciones y pronósticos de ventas, producción y análisis de inventarios en almacén.
             |Por ende, la estadística inferencial es sumamente útil en el análisis de poblaciones y tendencias, para hacerse una idea posible de las acciones y reacciones, de cara a condiciones específicas. Esto no significa que se las pueda predecir fielmente, ni que estemos en presencia de una ciencia exacta, pero sí de una aproximación, posible, al resultado final.
 
-    h5.mt-5.mb-5 Algunos ejemplos de la aplicación de la estadística inferencial son:
+    p.mt-5.mb-5 Algunos ejemplos de la aplicación de la estadística inferencial son:
 
     .row.justify-content-center
       .col-md-10    
@@ -333,7 +327,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3.text-center Tamaño suficientemente grande
+              h5.mb-3.text-center Tamaño suficientemente grande
               p.mb-0 No existe un tamaño ideal para deducir la muestra; para esto existen fórmulas matemáticas que relacionan la población con el tipo de variable (discreta o continua), la fórmula también estima si la población es finita o infinita.
         .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="flip-left")
@@ -341,7 +335,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img25.png", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3.text-center Aleatoriedad
+              h5.mb-3.text-center Aleatoriedad
               p.mb-0 La selección de los datos de una muestra estadística debe ser aleatoria, es decir, debe ser totalmente al azar. Si en lugar de realizarlo al azar, se realiza un proceso de selección de datos planificado, se está introduciendo un sesgo a la obtención de datos.
          
     p.mt--.mb-5 Existen diferentes tipos de muestreo según el tipo de variable, el método, o el tipo de población. 

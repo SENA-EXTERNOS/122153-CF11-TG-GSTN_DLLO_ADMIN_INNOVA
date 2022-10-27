@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Modelos matemáticos y estadísticos aplicados en big data',
+      'Modelos matemáticos y estadísticos aplicados en <i>big data<i>',
     descripcionCurso:
-      'Equipos móviles (teléfonos, tabletas, relojes, televisores, neveras inteligentes), dispositivos sencillos, hoy son emisores de información, con Internet como medio, proponiendo canales de emisión, receptores, otros equipos o sitios de almacenaje de datos, esperando ser utilizados de la mejor manera y con la rapidez posible; esa es la vida de hoy, a eso le llaman el Internet de las cosas (IoT)',
+      'Equipos móviles (teléfonos, tabletas, relojes, televisores, neveras inteligentes), dispositivos sencillos, hoy son emisores de información, con Internet como medio, proponiendo canales de emisión, receptores, otros equipos o sitios de almacenaje de datos, esperando ser utilizados de la mejor manera y con la rapidez posible; esa es la vida de hoy, a eso le llaman el Internet de las cosas (IoT).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal-01.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-01.png'),
     imagenesDecorativasBanner: [
@@ -181,7 +181,7 @@ export default {
     {
       termino: 'Decisión',
       significado:
-        'es la determinación para actuar ante una situación que presenta varias alternativas. La palabra proviene del latín decisio, qué significa opción tomada entre otras posibilidades.',
+        'es la determinación para actuar ante una situación que presenta varias alternativas. La palabra proviene del latín <i>decisio<i>, qué significa opción tomada entre otras posibilidades.',
     },
     {
       termino: 'Desviación estándar',
