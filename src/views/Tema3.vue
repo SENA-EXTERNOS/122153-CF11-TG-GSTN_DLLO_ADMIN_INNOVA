@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Big data
+      h1 #[i Big data]
       
     .row.justify-content-center
       .tarjeta

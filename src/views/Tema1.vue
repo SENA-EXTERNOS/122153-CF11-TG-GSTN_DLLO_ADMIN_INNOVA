@@ -160,8 +160,7 @@
                 .col-md-6
                   figura
                     img(src="@/assets/curso/temas/tema1/img10.png", alt="alt")
-            .col-md-6.mt-4.mb-md-0 
-              h4 Tabla de frecuencia
+            .col-md-6.mt-4.mb-md-0             
               p Después de recolectar datos, la tabla de frecuencias ordena, jerarquiza y clasifica los datos recolectados (cualitativos o cuantitativos), procurando asignar las cantidades correspondientes por intervalos o categorías asignadas, para análisis e informes posteriores, de acuerdo con las necesidades requeridas. 
 
         .py-3.py-md-4(titulo="Histograma")
@@ -172,7 +171,6 @@
                   figura
                     img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")
             .col-md-6.mt-5.mb-md-0 
-              h4 Histograma
               p Es un gráfico de barras que representa los datos de la tabla de frecuencia; el ancho de cada barra es el intervalo (marca de clase); para el caso de datos continuos, cada evento es el ancho de barra para datos discretos. El alto de cada barra es la frecuencia (número de veces que se repite el evento).
                              
         .py-3.py-md-4(titulo="Gráfico")
