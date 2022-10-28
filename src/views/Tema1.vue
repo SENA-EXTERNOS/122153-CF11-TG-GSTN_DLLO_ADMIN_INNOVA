@@ -68,7 +68,7 @@
       p.mt-5 Los tipos de modelo se pueden clasificar por:
 
       AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--white")
-        .row(titulo="Origen de la información:")
+        .row(titulo="Origen de la información")
           .col-md-1.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img4.png', alt='alt')
@@ -81,7 +81,7 @@
                   i.lista-ul__vineta
                   | Empíricos: se realizan desde la observación, con experimentos directos. Son experimentales.
 
-        .row(titulo="Tipo de representación:")
+        .row(titulo="Tipo de representación")
           .col-md-1.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img5.png', alt='alt')
@@ -94,7 +94,7 @@
                   i.lista-ul__vineta
                   | Cuantitativo: utiliza la matemática para determinar valores precisos del comportamiento del fenómeno y se pueden realizar operaciones y análisis complejos
 
-        .row(titulo="Aleatoriedad:")
+        .row(titulo="Aleatoriedad")
           .col-md-1.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img6.png', alt='alt')
@@ -107,7 +107,7 @@
                   i.lista-ul__vineta
                   | Estocástico: hace uso de la probabilidad, con cierta incertidumbre de éxito o fracaso.
 
-        .row(titulo="Uso:")
+        .row(titulo="Uso")
           .col-md-1.mb-5
             figure
               img(src='@/assets/curso/temas/tema1/img7.png', alt='alt')
@@ -181,7 +181,6 @@
                   figura
                     img(src="@/assets/curso/temas/tema1/img12.png", alt="alt")
             .col-md-6.mb-4.mb-md-0 
-              h4 Gráfico
               p La mente humana recuerda y procesa más rápido, útil y eficazmente imágenes, gráficos y formas, que las matrices, tablas, o textos largos y aburridos. Los gráficos son veraces, visuales, llenos de colores y dinámicos, lo que genera en nuestra mente mayor grado de recordación, mejorando el proceso epistemológico. Sencillez, claridad y precisión, hacen que los informes sean más fluidos, más fáciles de analizar, y recepcionar mejor una respuesta ante ellos. En un gráfico se puede condensar mucha información, haciendo que resalten las características y atributos de variables que podrían ser más difíciles de estructurar en una tabla o matriz.
 
     p.mt-5  Y dentro del rango de los gráficos, encontramos diferentes tipos de ellos
