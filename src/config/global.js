@@ -181,7 +181,7 @@ export default {
     {
       termino: 'Decisión',
       significado:
-        'es la determinación para actuar ante una situación que presenta varias alternativas. La palabra proviene del latín <i>decisio<i>, qué significa opción tomada entre otras posibilidades.',
+        'es la determinación para actuar ante una situación que presenta varias alternativas. La palabra proviene del latín <i>decisio</i>, qué significa opción tomada entre otras posibilidades.',
     },
     {
       termino: 'Desviación estándar',
