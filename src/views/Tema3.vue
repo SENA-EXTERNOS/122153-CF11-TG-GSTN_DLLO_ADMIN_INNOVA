@@ -14,10 +14,10 @@
             figure
               img(src="@/assets/curso/temas/tema3/img1.png", alt="alt")
           .col-sm-7.mb-3
-            p.mt-5 El siguiente aspecto a estudiar, es un término que se encuentra presente en la vida cotidiana de todos; viene en cada dispositivo que tenga alguna conexión a Internet, un teléfono, un televisor, una nevera, una cámara de video, la domótica de la casa, una máquina que regule el caudal de agua de un río, todas ellas, enviando información 24–7 los 365 días al año, sin descanso, generando espacios y cantidades de información que manualmente sería imposible de gestionar. El concepto #[i big data] precisamente, hace referencia a la acumulación de grandes cantidades de datos, así como su análisis por medio de máquinas y equipos de cómputo, con el fin de generar o perfilar patrones de comportamiento de información.
+            p.mt-5 El siguiente aspecto a estudiar, es un término que se encuentra presente en la vida cotidiana de todos; viene en cada dispositivo que tenga alguna conexión a Internet, un teléfono, un televisor, una nevera, una cámara de video, la domótica de la casa, una máquina que regule el caudal de agua de un río, todos ellos, enviando información 24–7 los 365 días al año, sin descanso, generando espacios y cantidades de información que manualmente sería imposible de gestionar. El concepto <i>Big data</i> precisamente, hace referencia a la acumulación de grandes cantidades de datos, así como su análisis por medio de máquinas y equipos de cómputo, con el fin de generar o perfilar patrones de comportamiento de información.
             .cajon.color-primario.tarjeta-verde.p-4
               .fila.justificar-contenido-entre.alinear-elementos-centro                  
-                p En #[i big data], probablemente lo más importante antes que la velocidad de flujo de datos y la capacidad de almacenamiento, es conocer el tipo de datos que se pueden hallar, en términos de estructurados, semiestructurados y no estructurados.
+                p En <i>Big data</i>, probablemente lo más importante antes que la velocidad de flujo de datos y la capacidad de almacenamiento, es conocer el tipo de datos que se pueden hallar, en términos de estructurados, semiestructurados y no estructurados.
 
     p.mt-5.mb-5 Ampliemos la información sobre cada uno de ellos: 
 
@@ -61,9 +61,9 @@
       .col-md-10
         .cajon.color-primario.tarjeta-verde.p-4
           .fila.justificar-contenido-entre.alinear-elementos-centro                  
-            p No todas las compañías optarán por la misma metodología con respecto al desarrollo y la creación de sus capacidades con tecnologías #[i big data]. Sin embargo, en todos los sectores existe la posibilidad de recurrir a estas nuevas tecnologías y analíticas para mejorar la toma de decisiones y el rendimiento, tanto a nivel interno como en el mercado.
+            p No todas las compañías optarán por la misma metodología con respecto al desarrollo y la creación de sus capacidades con tecnologías <i>Big data</i>. Sin embargo, en todos los sectores existe la posibilidad de recurrir a estas nuevas tecnologías y analíticas para mejorar la toma de decisiones y el rendimiento, tanto a nivel interno como en el mercado.
 
-    p.mt-5.mb-5 En definitiva, el #[i big data] es una combinación de siete características, con las cuales las empresas pueden obtener una ventaja posicional frente a sus competidores, contribuyendo hacia el éxito asegurado.
+    p.mt-5.mb-5 En definitiva, el <i>Big data</i> es una combinación de siete características, con las cuales las empresas pueden obtener una ventaja posicional frente a sus competidores, contribuyendo hacia el éxito asegurado. 
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--white")
         .row(titulo="Volumen de datos")
@@ -71,7 +71,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img5.png', alt='alt')
           .col-md-10.mt-2.mb-4.mb-md-0
-            p El principal factor del concepto #[i big data], se refiere a la cantidad de datos que se generan en diferentes tipos de emisores o dispositivos y de diferentes tipos de datos (estructurados, no estructurados o semi estructurados), esperando ser procesados y analizados. Esta cantidad aumenta exponencialmente en todo momento, cada minuto que ingresa una nueva organización al mundo digital.
+            p El principal factor del concepto <i>Big data</i>, se refiere a la cantidad de datos que se generan en diferentes tipos de emisores o dispositivos y de diferentes tipos de datos (estructurados, no estructurados o semi estructurados), esperando ser procesados y analizados. Esta cantidad aumenta exponencialmente en todo momento, cada minuto que ingresa una nueva organización al mundo digital.
 
         .row(titulo="Velocidad de los datos")
           .col-md-1.mb-5
@@ -85,7 +85,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img7.png', alt='alt')
           .col-md-10.mt-2.mb-4.mb-md-0
-              p Las formas, las fuentes, los tipos, el comportamiento y cómo se registran los datos, hace que sean estructurados; por ende, fáciles de relacionar y seguir, como también sin formato o no estructurados ambos, en todo caso, siendo útiles como elemento de información para los fines y necesidades particulares de la organización
+              p Las formas, las fuentes, los tipos, el comportamiento y cómo se registran los datos, hace que sean estructurados; por ende, fáciles de relacionar y seguir, como también sin formato o no estructurados ambos, en todo caso, siendo útiles como elemento de información para los fines y necesidades particulares de la organización.
 
         .row(titulo="Veracidad de los datos")
           .col-md-1.mb-5
@@ -122,7 +122,7 @@
           i.fas.fa-square
           b.h3 Métodos, técnicas y análisis de manejo de datos masivos
 
-    p.mt-5.mb-5 Estudiado el contexto de las herramientas y técnicas tradicionales de análisis de datos aprenderemos, entonces, sobre las herramientas que actualmente se utilizan para el análisis de datos masivos (#[i big data]).
+    p.mt-5.mb-5 Estudiado el contexto de las herramientas y técnicas tradicionales de análisis de datos aprenderemos, entonces, sobre las herramientas que actualmente se utilizan para el análisis de datos masivos (<i>Big data</i>).
     
     .tarjeta-pagada 
       .col-md.tarjeta-avatar
@@ -144,7 +144,7 @@
         img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
         .col-md.tarjeta.color-cuarta-tarjeta.p-3
           h2.text-center.mt-5 Análisis de series temporales
-          p.text-center Esta técnica es conocida desde la década de los 70´s donde, a partir de un histórico de datos, se proyectan datos a futuro; la diferencia aquí radica en el volumen, la velocidad y las otras “V” que fundamentan las características del #[i big data], aplicando algoritmos y máquinas capaces de analizar, en términos de segundos o minutos, los datos para “entregar” respuestas que sean útiles en las decisiones organizacionales.
+          p.text-center Esta técnica es conocida desde la década de los 70´s donde, a partir de un histórico de datos, se proyectan datos a futuro; la diferencia aquí radica en el volumen, la velocidad y las otras “V” que fundamentan las características del <i>Big data</i>, aplicando algoritmos y máquinas capaces de analizar, en términos de segundos o minutos, los datos para “entregar” respuestas que sean útiles en las decisiones organizacionales.
 
 
 

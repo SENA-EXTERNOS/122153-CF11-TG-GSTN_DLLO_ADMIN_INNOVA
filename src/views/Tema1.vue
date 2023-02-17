@@ -49,7 +49,7 @@
               p Deben encontrarse libres de vicios de: juicio, sensorial, física, social, u otra entidad que distraiga del objetivo de la observación; asimismo, deben someterse a repeticiones, ajustando los parámetros de observación y de comportamiento de la realidad, versus el modelo. Deben validarse con variables no sesgadas.                
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean simples")
             .row.justify-content-center
-              p Entre más sencillo, más compresible, calculable, y el modelo es el objetivo.
+              p El modelo es el objetivo, se busca que sea más sencillo, más compresible y calculable. 
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean sensibles")
             .row.justify-content-center
               p Los modelos no siempre son inflexibles; deben ser flexibles a cambios del comportamiento real, y van articulados con la objetividad y con la equivalencia.
@@ -89,10 +89,10 @@
             ul.lista-ul
                 li 
                   i.lista-ul__vineta
-                  | Cualitativo: importa el comportamiento del fenómeno, la tendencia de este o el comportamiento de algunos atributos sin importar su valor numérico.
+                  | Cualitativo: lo que interesa es el comportamiento del fenómeno, la tendencia de este o la conducta de algunos atributos, sin importar su valor numérico.
                 li 
                   i.lista-ul__vineta
-                  | Cuantitativo: utiliza la matemática para determinar valores precisos del comportamiento del fenómeno y se pueden realizar operaciones y análisis complejos
+                  | Cuantitativo: utiliza la matemática para determinar valores precisos del comportamiento del fenómeno y se pueden realizar operaciones y análisis complejos.
 
         .row(titulo="Aleatoriedad")
           .col-md-1.mb-5
@@ -344,41 +344,41 @@
           .row.justify-content-center
             .col-sm-10 
               figure 
-                img(src='@/assets/curso/temas/tema1/img26.png', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img26.svg', alt='alt')
                 
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="23%" y="33%" numero="+")  
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="23%" y="23%" numero="+")  
             .row.justify-content-center  
               p.mb-0 Existe igual probabilidad de estar o no en la muestra, por parte de todos los elementos o individuos.
                           
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="67%" y="32%" numero="+")
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="67%" y="22%" numero="+")
             .row.justify-content-center   
               p.mb-0 No aleatoriedad en la selección; esta depende del método y de la subjetividad del seleccionador.
                       
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="82%" y="58%" numero="+")
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="82%" y="49%" numero="+")
             .row.justify-content-center  
               p.mb-0 La población es elegida en función a unas características determinadas.
 
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="53%" y="57%" numero="+")
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="53%" y="48%" numero="+")
             .row.justify-content-center  
               p.mb-0 En primer lugar, se seleccionan diferentes sujetos. Luego, estos sujetos colaboran para encontrar a más sujetos que tengan relación con ellos.
 
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="38%" y="57%" numero="+")
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="38%" y="48%" numero="+")
             .row.justify-content-center  
               p.mb-0 En este caso, la población se enumera y se agrupa en equipos de 10 personas. Posteriormente, se selecciona a un miembro de cada equipo para elaborar la muestra.
 
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="11%" y="57%" numero="+")
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="11%" y="48%" numero="+")
             .row.justify-content-center  
               p.mb-0 Es un conjunto de variables aleatorias independientes e idénticamente distribuidas; todas tienen las mismas posibilidades de ser elegidas.
                                            
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="67%" y="91%" numero="+")
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="67%" y="84%" numero="+")
             .row.justify-content-center  
               p.mb-0 Es una muestra elegida por los propios investigadores, según su interés o cercanía.
                 
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="38%" y="95%" numero="+")      
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="38%" y="86%" numero="+")      
             .row.justify-content-center 
               p.mb-0 En este caso, la población se divide en subgrupos o estratos, con base en las variables de estratificación.
 
-        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="10%" y="95%" numero="+")      
+        .tarjeta.color-secundario--borde.contenido-tarjeta-verde.p-3(x="10%" y="86%" numero="+")      
             .row.justify-content-center 
               p.mb-0 La población se encuentra ya agrupada previamente y de estos grupos se extraen los individuos para conformar la muestra.
 

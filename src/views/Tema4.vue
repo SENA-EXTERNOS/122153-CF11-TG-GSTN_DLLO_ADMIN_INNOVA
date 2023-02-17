@@ -108,9 +108,13 @@
                     img(src='@/assets/curso/temas/tema4/img11.png' alt='AvatarTop')                  
                 h3.mt-3.texto-centro Especializadas
                 p.texto-centro Bases de datos de información hiperespecializada o técnica, pensadas a partir de las necesidades puntuales de un público determinado que consume dicha información.
-
-    p.mt-5 Continuemos este estudio con el sistema de gestión de bases de datos (DBMS, #[i Data Base Magnament System]), el cual es una aplicación (#[i software]) que gestiona no solo una base de datos, sino también varias bases de datos. Es una interfaz que le permite a los usuarios, interactuar con la información que le brindan sus datos, organizados en bases de datos dinámicas y flexibles.                
-    p.mb5 El sistema de gestión de base de datos, a diferencia de las bases de datos, gestiona, controla, aplica principios y reglas a todas esas relaciones que pueden resultar de la interacción de las bases de datos. Ofrece cánones de seguridad, integridad de los datos y procesos rígidos de auditoría, para el buen uso y prácticas nobles en disposición, suministro y recibo de información, procurando que se cumplan las “V” del #[i big data].
+    .row.justify.content-center.mt-5
+      ul.lista-ul
+        li
+          i.fas.fa-square
+          b.h5 Sistemas de gestión de bases de datos
+    p Continuemos este estudio con el sistema de gestión de bases de datos (DBMS, #[i Data Base Magnament System]), el cual es una aplicación (#[i software]) que gestiona no solo una base de datos, sino también varias bases de datos. Es una interfaz que le permite a los usuarios, interactuar con la información que le brindan sus datos, organizados en bases de datos dinámicas y flexibles.                
+    p.mb5 El sistema de gestión de base de datos, a diferencia de las bases de datos, gestiona, controla, aplica principios y reglas a todas esas relaciones que pueden resultar de la interacción de las bases de datos. Ofrece cánones de seguridad, integridad de los datos y procesos rígidos de auditoría, para el buen uso y prácticas nobles en disposición, suministro y recibo de información, procurando que se cumplan las “V” del #[i Big data].
     p.mt-5.mb-5 Los sistemas de gestión de bases de datos pueden clasificarse en varios tipos:
 
     .row.justify-content-center
@@ -145,13 +149,13 @@
         figure 
             img(src='@/assets/curso/temas/tema4/img13.png', alt='alt')  
 
-    .row.justify.content-center.my-5
+    .row.justify.content-center.mt-5
       ul.lista-ul
         li
           i.fas.fa-square
           b.h5 Herramientas tecnológicas
 
-    p.mt-5.mb-5 Finalizamos concluyendo que, el #[i big data] se ha convertido hoy en una prioridad para muchas empresas; así mismo, han surgido abundantes ofertas de administradores de aplicaciones de grandes datos, para atender esta demanda actual de obtener o estructurar información privilegiada a partir de datos (en todas sus formas, características y presentaciones).
+    p.mt-5.mb-5 Finalizamos concluyendo que, el <i>Big data</i> se ha convertido hoy en una prioridad para muchas empresas; así mismo, han surgido abundantes ofertas de administradores de aplicaciones de grandes datos, para atender esta demanda actual de obtener o estructurar información privilegiada a partir de datos (en todas sus formas, características y presentaciones).
     p.mb-5 Conozcamos las herramientas más importantes:
 
       .row.justify-content-center

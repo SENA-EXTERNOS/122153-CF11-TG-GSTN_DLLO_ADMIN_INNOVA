@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Modelos matemáticos y estadísticos aplicados en <i>big data<i>',
+      'Modelos matemáticos y estadísticos aplicados en <i>Big data<i>',
     descripcionCurso:
       'Equipos móviles (teléfonos, tabletas, relojes, televisores, neveras inteligentes), dispositivos sencillos, hoy son emisores de información, con Internet como medio, proponiendo canales de emisión, receptores, otros equipos o sitios de almacenaje de datos, esperando ser utilizados de la mejor manera y con la rapidez posible; esa es la vida de hoy, a eso le llaman el Internet de las cosas (IoT).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal-01.png'),
@@ -77,7 +77,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Big data',
+        titulo: '<i>Big data</i>',
         desarrolloContenidos: true,
       },
       {
