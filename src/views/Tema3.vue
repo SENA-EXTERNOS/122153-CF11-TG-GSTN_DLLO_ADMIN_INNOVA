@@ -122,7 +122,7 @@
           i.fas.fa-square
           b.h3 Métodos, técnicas y análisis de manejo de datos masivos
 
-    p.mt-5.mb-5 Estudiado el contexto de las herramientas y técnicas tradicionales de análisis de datos aprenderemos, entonces, sobre las herramientas que actualmente se utilizan para el análisis de datos masivos (<i>Big data</i>).
+    p.mt-5.mb-5 Estudiando el contexto de las herramientas y técnicas tradicionales de análisis de datos aprenderemos, entonces, sobre las herramientas que actualmente se utilizan para el análisis de datos masivos (<i>Big data</i>).
     
     .tarjeta-pagada 
       .col-md.tarjeta-avatar

@@ -49,7 +49,7 @@
               p Deben encontrarse libres de vicios de: juicio, sensorial, física, social, u otra entidad que distraiga del objetivo de la observación; asimismo, deben someterse a repeticiones, ajustando los parámetros de observación y de comportamiento de la realidad, versus el modelo. Deben validarse con variables no sesgadas.                
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean simples")
             .row.justify-content-center
-              p El modelo es el objetivo, se busca que sea más sencillo, más compresible y calculable. 
+              p El modelo es el objetivo, se busca que sea más sencillo, más comprensible y calculable. 
           .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean sensibles")
             .row.justify-content-center
               p Los modelos no siempre son inflexibles; deben ser flexibles a cambios del comportamiento real, y van articulados con la objetividad y con la equivalencia.

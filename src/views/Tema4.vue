@@ -58,21 +58,23 @@
               img(src="@/assets/curso/temas/tema4/img5.png", alt="alt")   
 
     p.mt-5.mb-5 Según su variabilidad o sea, la preservación de los datos, así como también su recuperación, las bases de datos se clasifican en:
-    
-    .tarjeta--container.row.justify-content-center
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema4/img6.png', alt='')
-        .tarjeta.he-tarjetas.tarjeta-verde-claro.p-3
-          h2.text-center.mt-5 Estáticas
-          p.text-center Antiguos análisis históricos hechos por las compañías hasta hace 10 años, depositados en archivos digitales (memorias USB, discos duros), solo para consulta o lectura.
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema4/img7.png' alt='AvatarTop')
-        .tarjeta.he-tarjetas.tarjeta-verde-claro.p-3
-          h2.text-center.mt-5 Dinámicas
-          p A diferencia de las estáticas, están en constante cambio, entra y sale información en cuestión de segundos.
+
+    .row.justify-content-center.mb-5           
+      .col-lg-4    
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema4/img6.png', alt='')
+          .tarjeta.tarjeta-verde-claro.p-3.h-100
+            h2.text-center.mt-5 Estáticas
+            p.mb-0 Antiguos análisis históricos hechos por las compañías hasta hace 10 años, depositados en archivos digitales (memorias USB, discos duros), solo para consulta o lectura.
+      .col-lg-4           
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema4/img7.png' alt='AvatarTop')
+          .tarjeta.tarjeta-verde-claro.p-3.h-100
+            h2.text-center.mt-5 Dinámicas
+            p.mb-0 A diferencia de las estáticas, están en constante cambio, entra y sale información en cuestión de segundos.
 
 
-    p.mt-5.mb-5 Y según su contenido (discrimina el tipo de información que se administra), las bases de datos se clasifican en:
+    p.mb-5 Y según su contenido (discrimina el tipo de información que se administra), las bases de datos se clasifican en:
 
       .row.justify-content-center
         .col-md-12
