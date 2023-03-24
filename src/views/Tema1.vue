@@ -132,7 +132,7 @@
     p.mt-5 Estas variables pueden ser: 
 
       .row.justify-content-center.mb-5
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .col-lg-5.col-md-10
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -140,7 +140,7 @@
             .crd_hover_txt--body
               h4.mb-3.text-center Variable cuantitativa 
               p.mb-0 Adquiere características que se pueden expresar con valores numéricos; pueden ser de tipo discreto (se expresan números enteros naturales, por ejemplo, el número de personas en un cine, la cantidad vehículos en un parqueadero) o continuas (se expresan con números decimales, como el peso, la estatura o la velocidad).
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .col-lg-5.col-md-10      
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -318,7 +318,7 @@
     p.mb-5 Por eso, cuando se quieren obtener datos para una muestra que sea representativa, se deben tener en cuenta aspectos como:
 
       .row.justify-content-center.mb-5
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .col-lg-5.col-md-10
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -326,7 +326,7 @@
             .crd_hover_txt--body
               h5.mb-3.text-center Tamaño suficientemente grande
               p.mb-0 No existe un tamaño ideal para deducir la muestra; para esto existen fórmulas matemáticas que relacionan la población con el tipo de variable (discreta o continua), la fórmula también estima si la población es finita o infinita.
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .col-lg-5.col-md-10
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure

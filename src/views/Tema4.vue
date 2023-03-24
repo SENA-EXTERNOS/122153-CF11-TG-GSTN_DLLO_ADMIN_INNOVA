@@ -17,28 +17,28 @@
             .col-7
               figura
                 img(src='@/assets/curso/temas/tema4/img1.png', alt='')
-          h3.text-center Numéricos
+          h4.text-center Numéricos
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.color-verde-contenido-tarjeta.p-4
           .row.justify-content-center.mb-3
             .col-7
               figura
                 img(src='@/assets/curso/temas/tema4/img2.png', alt='')
-          h3.text-center De texto    
+          h4.text-center De texto    
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.color-verde-contenido-tarjeta.p-4
           .row.justify-content-center.mb-3
             .col-7
               figura
                 img(src='@/assets/curso/temas/tema4/img3.png', alt='')
-          h3.text-center Lógicos                 
+          h4.text-center Lógicos                 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.color-verde-contenido-tarjeta.p-4
           .row.justify-content-center.mb-3
             .col-7
               figura
                 img(src='@/assets/curso/temas/tema4/img4.png', alt='')
-          h3.text-center Estadísticos
+          h4.text-center Estadísticos
 
     p.mt-5.mb-5 Tenga en cuenta que los datos son símbolos aislados, sin contexto, sin valor alguno. Cuando se estructuran, jerarquizan, analizan y visualizan en un entorno o contexto específico acorde con su fuente, se vuelven información y es, en ese momento, donde se pueden tomar decisiones.
     
@@ -64,13 +64,13 @@
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img6.png', alt='')
           .tarjeta.tarjeta-verde-claro.p-3.h-100
-            h2.text-center.mt-5 Estáticas
+            h4.text-center.mt-5 Estáticas
             p.mb-0 Antiguos análisis históricos hechos por las compañías hasta hace 10 años, depositados en archivos digitales (memorias USB, discos duros), solo para consulta o lectura.
       .col-lg-4           
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img7.png' alt='AvatarTop')
           .tarjeta.tarjeta-verde-claro.p-3.h-100
-            h2.text-center.mt-5 Dinámicas
+            h4.text-center.mt-5 Dinámicas
             p.mb-0 A diferencia de las estáticas, están en constante cambio, entra y sale información en cuestión de segundos.
 
 
@@ -79,36 +79,36 @@
       .row.justify-content-center
         .col-md-12
           SlyderF(columnas="col-md-4")
-            .tarjeta.color-acento-contenido.p-2.h-azul
+            .tarjeta.color-acento-contenido.p-2.h-100
               .row.justify-content-center.mb-2
                 .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img8.png' alt='AvatarTop')                  
-                h3.mt-3.texto-centro Bibliográficas
+                h4.mt-3.texto-centro Bibliográficas
                 p.texto-centro Contienen diverso material de lectura (libros, revistas, etc.), ordenado a partir de información clave como son los datos del autor, editor, año de aparición, área temática o título del libro, entre muchas otras posibilidades.
 
-            .tarjeta.color-acento-contenido.p-2.h-azul
+            .tarjeta.color-acento-contenido.p-2.h-100
               .row.justify-content-center.mb-2
                 .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img9.png' alt='AvatarTop')                  
-                h3.mt-3.texto-centro De texto completo
+                h4.mt-3.texto-centro De texto completo
                 p.texto-centro Se manejan con textos históricos o documentales, cuya preservación debe ser a todo nivel y se consideran fuentes primarias.
 
-            .tarjeta.color-acento-contenido.p-2.h-azul
+            .tarjeta.color-acento-contenido.p-2.h-100
               .row.justify-content-center.mb-2
                 .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img10.png' alt='AvatarTop')                  
-                h3.mt-3.texto-centro Directorios
+                h4.mt-3.texto-centro Directorios
                 p.texto-centro Listados enormes de datos personalizados o de direcciones de correo electrónico, números telefónicos, etc. 
 
-            .tarjeta.color-acento-contenido.p-2.h-azul
+            .tarjeta.color-acento-contenido.p-2.h-100
               .row.justify-content-center.mb-2
                 .col-md-5.mt-5
                   figure
                     img(src='@/assets/curso/temas/tema4/img11.png' alt='AvatarTop')                  
-                h3.mt-3.texto-centro Especializadas
+                h4.mt-3.texto-centro Especializadas
                 p.texto-centro Bases de datos de información hiperespecializada o técnica, pensadas a partir de las necesidades puntuales de un público determinado que consume dicha información.
     .row.justify.content-center.mt-5
       ul.lista-ul
@@ -168,7 +168,7 @@
                   .col-sm-2.col-lg-7.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img14.png' alt='AvatarTop')                  
-                  h3.mt-3.texto-centro Apache Hadoop
+                  h4.mt-3.texto-centro Apache Hadoop
                   p.texto-centro Es una de las precursoras, utilizada por Facebook, de código abierto (gratis), predictiva y con alto nivel de seguridad.
 
               .tarjeta.color-acento-contenido.p-5
@@ -176,7 +176,7 @@
                   .col-sm-2.col-lg-7.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img15.png' alt='AvatarTop')                  
-                  h3.mt-3.texto-centro Elasticsearch
+                  h4.mt-3.texto-centro Elasticsearch
                   p.texto-centro Procesa datos en grandes cantidades, análisis en tiempo real, con ayuda de gráficos y se pueden realizar consultas complejas.
 
               .tarjeta.color-acento-contenido.p-5
@@ -184,7 +184,7 @@
                   .col-sm-2.col-lg-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img16.png' alt='AvatarTop')                  
-                  h3.mt-3.texto-centro Apache Storm
+                  h4.mt-3.texto-centro Apache Storm
                   p.texto-centro Se puede usar con cualquier lenguaje de programación, proceso en tiempo real, grandes cantidades de datos.
 
               .tarjeta.color-acento-contenido.p-5
@@ -192,7 +192,7 @@
                   .col-sm-2.col-lg-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img17.png' alt='AvatarTop')                  
-                  h3.mt-3.texto-centro MongoDB
+                  h4.mt-3.texto-centro MongoDB
                   p.texto-centro Es no relacional para datos no estructurados o semiestructurados, excelente para teléfonos móviles.
 
               .tarjeta.color-acento-contenido.p-5
@@ -200,7 +200,7 @@
                   .col-sm-2.col-lg-7.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img18.png' alt='AvatarTop')                  
-                  h3.mt-3.texto-centro Apache Spark
+                  h4.mt-3.texto-centro Apache Spark
                   p.texto-centro Es gratis, se puede conectar con varias computadoras simultáneamente, aplica #[i machine learning], muy eficaz y rápida.
 
       .row.justify-content-center.mt-5

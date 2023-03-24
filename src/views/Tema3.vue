@@ -124,27 +124,29 @@
 
     p.mt-5.mb-5 Estudiando el contexto de las herramientas y técnicas tradicionales de análisis de datos aprenderemos, entonces, sobre las herramientas que actualmente se utilizan para el análisis de datos masivos (<i>Big data</i>).
     
-    .tarjeta-pagada 
-      .col-md.tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
-        .tarjeta.color-primera-tarjeta.p-3
-          h2.text-center.mt-5 Aprendizaje automático
-          p.text-center Las máquinas aprenden a comprender patrones de comportamiento, desde los más sencillos hasta los más complejos, utilizando algoritmos igualmente complicados; desde esa perspectiva, adquieren conocimientos que utilizarán en acciones posteriores, mejorando procesos (#[i machine learning]), al ir expandiendo su “memoria interna” con conocimientos, y aumentando fundamentalmente su desempeño, autonomía y automaticidad (inteligencia artificial).
-      .col-md.tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
-        .tarjeta.color-secundario.p-3
-          h2.text-center.mt-5 Redes de neuronas
-          p.text-center Como su nombre lo dice, partiendo del aprendizaje automático las máquinas, a través de algoritmos, aprenden a crear redes de conocimiento e información, aprendiendo patrones nuevos cada vez; una interacción similar al funcionamiento de las neuronas humanas, que lo hacen por redes, y son patrones no lineales, siendo así más rápidas y eficaces.
-      .col-md.tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
-        .col-md.tarjeta.color-tercera-tarjeta.p-3
-          h2.text-center.mt-5 Aprendizaje reglas de asociación
-          p.text-center Tiene un cierto parecido con la regresión, buscando la correlación de variables; en este caso, los algoritmos buscan relaciones entre las bases de datos, encontrando en estas relaciones puntos fuertes a la hora de tomar decisiones.
-      .col-md.tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
-        .col-md.tarjeta.color-cuarta-tarjeta.p-3
-          h2.text-center.mt-5 Análisis de series temporales
-          p.text-center Esta técnica es conocida desde la década de los 70´s donde, a partir de un histórico de datos, se proyectan datos a futuro; la diferencia aquí radica en el volumen, la velocidad y las otras “V” que fundamentan las características del <i>Big data</i>, aplicando algoritmos y máquinas capaces de analizar, en términos de segundos o minutos, los datos para “entregar” respuestas que sean útiles en las decisiones organizacionales.
+    .tarjeta-pagada
+      .row.justifi-content.center.mb-3 
+        .col-md.tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
+          .tarjeta.color-primera-tarjeta.p-4
+            h4.text-center.mt-5 Aprendizaje automático
+            p.text-center Las máquinas aprenden a comprender patrones de comportamiento, desde los más sencillos hasta los más complejos, utilizando algoritmos igualmente complicados; desde esa perspectiva, adquieren conocimientos que utilizarán en acciones posteriores, mejorando procesos (#[i machine learning]), al ir expandiendo su “memoria interna” con conocimientos, y aumentando fundamentalmente su desempeño, autonomía y automaticidad (inteligencia artificial).
+        .col-md.tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
+          .tarjeta.color-secundario.p-4
+            h4.text-center.mt-5 Redes de neuronas
+            p.text-center Como su nombre lo dice, partiendo del aprendizaje automático las máquinas, a través de algoritmos, aprenden a crear redes de conocimiento e información, aprendiendo patrones nuevos cada vez; una interacción similar al funcionamiento de las neuronas humanas, que lo hacen por redes, y son patrones no lineales, siendo así más rápidas y eficaces.
+      .row.justifi-content.center             
+        .col-md.tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
+          .col-md.tarjeta.color-tercera-tarjeta.p-4
+            h4.text-center.mt-5 Aprendizaje reglas de asociación
+            p.text-center Tiene un cierto parecido con la regresión, buscando la correlación de variables; en este caso, los algoritmos buscan relaciones entre las bases de datos, encontrando en estas relaciones puntos fuertes a la hora de tomar decisiones.
+        .col-md.tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
+          .col-md.tarjeta.color-cuarta-tarjeta.p-4
+            h4.text-center.mt-5 Análisis de series temporales
+            p.text-center Esta técnica es conocida desde la década de los 70´s donde, a partir de un histórico de datos, se proyectan datos a futuro; la diferencia aquí radica en el volumen, la velocidad y las otras “V” que fundamentan las características del <i>Big data</i>, aplicando algoritmos y máquinas capaces de analizar, en términos de segundos o minutos, los datos para “entregar” respuestas que sean útiles en las decisiones organizacionales.
 
 
 
