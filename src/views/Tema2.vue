@@ -29,23 +29,23 @@
           figure
             img(src="@/assets/curso/temas/tema2/img2.png", alt="alt") 
       .col-md-9
-          TabsA.color-acento-contenido.mt-5
-            .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Decisiones de<br> dirección")
+          TabsC.color-acento-contenido.mt-5
+            .tarjeta.tarjeta-verde.color-contenido.p-4.mb-3(titulo="Decisiones de dirección")
               .row.justify-content-center
                 p Este tipo de decisiones son las que se realizan en las reuniones directivas, asambleas de dirección, juntas de socios, donde, desde la dirección, se planean normas y políticas a seguir a nivel macro. Estas decisiones generalmente afectan a mediano y largo plazo, el direccionamiento general de la organización.
-            .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Decisiones<br> estratégicas")
+            .tarjeta.tarjeta-verde.color-contenido.p-4.mb-3(titulo="Decisiones estratégicas")
               .row.justify-content-center
                 p Las decisiones estratégicas se encargan de preparar el futuro de la empresa, es decir, son las decisiones que se toman para obtener resultados a mediano y largo plazo. Estas decisiones las toma la dirección o la gerencia de la empresa, dentro de escenarios que pueden entrañar diferentes grados de riesgo. Son direcciones estratégicas, por ejemplo, la planificación financiera, las políticas de retribución y salir al mercado internacional.
-            .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Decisiones<br> individuales")
+            .tarjeta.tarjeta-verde.color-contenido.p-4.mb-3(titulo="Decisiones individuales")
               .row.justify-content-center
                 p Básicamente, es la autonomía que tiene todo empleado (administrativo u operativo) de tomar decisiones de acuerdo con su rol y conocimiento; estas decisiones también tienen consecuencias en el engranaje total de la empresa, dependiendo de la responsabilidad y grado que tenga en la organización.
-            .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Decisiones<br> operativas")
+            .tarjeta.tarjeta-verde.color-contenido.p-4.mb-3(titulo="Decisiones operativas")
               .row.justify-content-center
                 p Son aquellas que se toman para realizar la gestión diaria de la empresa. Estas decisiones pueden tomarlas los trabajadores de forma individual, o los departamentos correspondientes. Son ejemplo de decisiones operativas: la adaptación de la normativa de protección de datos, la selección de proveedores y el control de cobros y pagos.
-            .tarjeta.tarjeta-verde.color-contenido.p-4(class="small-text" titulo="Decisiones rutinarias<br> o programadas")
+            .tarjeta.tarjeta-verde.color-contenido.p-4.mb-3(class="small-text" titulo="Decisiones rutinarias o programadas")
               .row.justify-content-center
                 p Estas decisiones son de rutina, programadas, planeadas, incluso sus variantes pueden ser planteadas con anticipación; se toman de forma individual o grupal y forman parte del flujo de procesos.
-            .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Decisiones de<br> riesgo")
+            .tarjeta.tarjeta-verde.color-contenido.p-4.mb-3(titulo="Decisiones de riesgo")
               .row.justify-content-center
                 p Las decisiones de riesgo son excepcionales, puesto que se toman solo en situaciones críticas o de riesgo para la empresa. Una mala decisión en este tipo de escenario, puede significar consecuencias graves para la empresa.
 

@@ -40,23 +40,23 @@
               p Los modelos matemáticos son conceptos simbólicos, de carácter muy amplio o muy cerrado, lo que hace que sean bastante diversos, siendo a veces difíciles de caracterizar, parametrizar y mucho menos estandarizar, pero sí se ha logrado que cumplan con las siguientes características:
 
       .col-md-9
-        TabsA.color-acento-contenido.mt-5
-          .tarjeta.tarjeta-verde.color-contenido.p-4( titulo="Que sean equivalentes")
+        TabsB.color-acento-contenido.mt-5
+          .tarjeta.tarjeta-verde.color-contenido.p-4.my-3( titulo="Que sean equivalentes")
             .row.justify-content-center
               p Se refiere al grado de “acercamiento” de la realidad, con el modelo. Generalmente, se mide de forma porcentual, debiendo cumplir como mínimo un 75 % con respecto al original, para que el modelo sea válido. 
-          .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean objetivos")
+          .tarjeta.tarjeta-verde.color-contenido.p-4.my-3(titulo="Que sean objetivos")
             .row.justify-content-center
               p Deben encontrarse libres de vicios de: juicio, sensorial, física, social, u otra entidad que distraiga del objetivo de la observación; asimismo, deben someterse a repeticiones, ajustando los parámetros de observación y de comportamiento de la realidad, versus el modelo. Deben validarse con variables no sesgadas.                
-          .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean simples")
+          .tarjeta.tarjeta-verde.color-contenido.p-4.my-3(titulo="Que sean simples")
             .row.justify-content-center
               p El modelo es el objetivo, se busca que sea más sencillo, más comprensible y calculable. 
-          .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean sensibles")
+          .tarjeta.tarjeta-verde.color-contenido.p-4.my-3(titulo="Que sean sensibles")
             .row.justify-content-center
               p Los modelos no siempre son inflexibles; deben ser flexibles a cambios del comportamiento real, y van articulados con la objetividad y con la equivalencia.
-          .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean estables")
+          .tarjeta.tarjeta-verde.color-contenido.p-4.my-3(titulo="Que sean estables")
             .row.justify-content-center
               p Las variaciones que se presenten en la realidad, deben ser igualmente correspondientes en magnitud en el modelo; a grandes variaciones reales, grandes variaciones en el modelo y viceversa.
-          .tarjeta.tarjeta-verde.color-contenido.p-4(titulo="Que sean universales")
+          .tarjeta.tarjeta-verde.color-contenido.p-4.my-3(titulo="Que sean universales")
             .row.justify-content-center
               p Se basa en que el modelo debe haber satisfecho procesos de pruebas en diferentes ambientes, que sirvan de referencia general para comportamientos reales, bajo los mismos parámetros.
 
