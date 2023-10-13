@@ -51,7 +51,7 @@
       .tarjeta
         .row.justify-content-left
           .col-sm-8.mb-3
-            p.mt-5 Conforme la tecnología ha evolucionado y se ha incrementado el volumen de datos, las herramientas convencionales de los paquetes ofimáticos se fueron quedando cortas para el análisis “estático” de las antiguas bases de datos que cambiaban lentamente. Hoy en día, estas herramientas son más poderosas, capaces de analizar “dinámicamente” datos en tiempo real, conforme van cambiando con “delay” en segundo y no en semanas o meses como ocurría antes. 
+            p.mt-5 Conforme la tecnología ha evolucionado y se ha incrementado el volumen de datos, las herramientas convencionales de los paquetes ofimáticos se fueron quedando cortas para el análisis “estático” de las antiguas bases de datos que cambiaban lentamente. Hoy en día, estas herramientas son más poderosas, capaces de analizar “dinámicamente” datos en tiempo real, conforme van cambiando con #[em “delay”] en segundo y no en semanas o meses como ocurría antes. 
             p Es necesario almacenar la información similar para poder consultarla en el momento preciso; antiguamente, en las organizaciones, las bases de datos eran sus archivos físicos, clasificados con diferentes metodologías para ser consultados; eran habitaciones llenas de “legajadores” de color café guardados sistemáticamente. Después llegó la era digital, y en la habitación se archivaban no solo libros físicos, sino “discos compactos”, grabados con datos en pdf, jpg, u otro formato; ahora el cuarto o estancia se ha convertido en el sitio donde se encuentra una gran computadora (servidor), que está interactuando con otras estaciones de trabajo en el mismo edificio o afuera, enviando la información a un tipo de dispositivo móvil en cualquier parte del mundo, en algún momento. Ese es el concepto de base de datos actual, es una interacción dinámica y rápida.
           .col-sm-4.mb-3.mt-5
             figure
@@ -78,7 +78,7 @@
 
       .row.justify-content-center
         .col-md-12
-          SlyderF(columnas="col-md-4")
+          SlyderF(columnas="col-lg-4 col-md-6")
             .tarjeta.color-acento-contenido.p-2.h-100
               .row.justify-content-center.mb-2
                 .col-md-5.mt-5
@@ -147,7 +147,7 @@
     p.mt-5.mb-5 Es así como el DBMS organiza los archivos de su base de datos y proporciona a los usuarios finales más acceso y control sobre sus datos. Para lograrlo, un DBMS permite a los usuarios manipular los datos en los archivos de sus bases de datos, incluyendo acciones como crear, editar y actualizar cuando sea necesario. 
     p.mb-5 Un DBMS proporciona 5 funciones principales:
     .row.justify-content-center
-     .col-md-8
+     .col-lg-8
         figure 
             img(src='@/assets/curso/temas/tema4/img13.png', alt='alt')  
 
@@ -162,10 +162,10 @@
 
       .row.justify-content-center
           .col-md-12
-            SlyderF(columnas="col-sm-4")
+            SlyderF(columnas="col-lg-4 col-md-6")
               .tarjeta.color-acento-contenido.p-5
                 .row.justify-content-center.mb-2
-                  .col-sm-2.col-lg-7.mb-4.mb-lg-0
+                  .col-lg-7.col-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img14.png' alt='AvatarTop')                  
                   h4.mt-3.texto-centro Apache Hadoop
@@ -173,7 +173,7 @@
 
               .tarjeta.color-acento-contenido.p-5
                 .row.justify-content-center.mb-2
-                  .col-sm-2.col-lg-7.mb-4.mb-lg-0
+                  .col-lg-7.col-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img15.png' alt='AvatarTop')                  
                   h4.mt-3.texto-centro Elasticsearch
@@ -181,7 +181,7 @@
 
               .tarjeta.color-acento-contenido.p-5
                 .row.justify-content-center.mb-2
-                  .col-sm-2.col-lg-8.mb-4.mb-lg-0
+                  .col-lg-7.col-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img16.png' alt='AvatarTop')                  
                   h4.mt-3.texto-centro Apache Storm
@@ -189,7 +189,7 @@
 
               .tarjeta.color-acento-contenido.p-5
                 .row.justify-content-center.mb-2
-                  .col-sm-2.col-lg-8.mb-4.mb-lg-0
+                  .col-lg-7.col-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img17.png' alt='AvatarTop')                  
                   h4.mt-3.texto-centro MongoDB
@@ -197,7 +197,7 @@
 
               .tarjeta.color-acento-contenido.p-5
                 .row.justify-content-center.mb-2
-                  .col-sm-2.col-lg-7.mb-4.mb-lg-0
+                  .col-lg-7.col-8.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/temas/tema4/img18.png' alt='AvatarTop')                  
                   h4.mt-3.texto-centro Apache Spark
@@ -206,7 +206,7 @@
       .row.justify-content-center.mt-5
         .col-md-8    
           .cajon.color-acento-botones.color-cajon-naranja-calido.p-4
-              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, el material complementario, entre otros.Además, lo invitamos a  resolver la actividad didáctica para reforzar los conceptos estudiados en el componente formativo. 
+              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, el material complementario, entre otros. Además, lo invitamos a  resolver la actividad didáctica para reforzar los conceptos estudiados en el componente formativo. 
 
 
 

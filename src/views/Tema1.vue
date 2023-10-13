@@ -139,7 +139,7 @@
                 img(src="@/assets/curso/temas/tema1/img9.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Variable cuantitativa 
-              p.mb-0 Adquiere características que se pueden expresar con valores numéricos; pueden ser de tipo discreto (se expresan números enteros naturales, por ejemplo, el número de personas en un cine, la cantidad vehículos en un parqueadero) o continuas (se expresan con números decimales, como el peso, la estatura o la velocidad).
+              p.mb-0 Adquiere características que se pueden expresar con valores numéricos; pueden ser de tipo discreto (se expresan números enteros naturales, por ejemplo, el número de personas en un cine, la cantidad de vehículos en un parqueadero) o continuas (se expresan con números decimales, como el peso, la estatura o la velocidad).
         .col-lg-5.col-md-10      
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
@@ -201,7 +201,7 @@
       .tarjeta.color-secundario--borde.contenido-tarjeta.p-3(x="50%" y="7%" numero="+")
           .row.justify-content-center 
             h4.mb-3.text-center Gráfico dispersión:  
-            p.mb-0 es el clásico gráfico de la línea recta, donde se tiene una variable dependiente, que puede tomar cualquier valor y otra, que depende del valor de la otra. Existe una correlación entre las dos variables: directas (ambas variables van en el mismo sentido, por ejemplo, si X, aumenta, Y aumenta), o inversas (si X aumenta, Y disminuye).
+            p.mb-0 es el clásico gráfico de la línea recta, donde se tiene una variable dependiente, que puede tomar cualquier valor, y otra, que depende del valor de la otra. Existe una correlación entre las dos variables: directas (ambas variables van en el mismo sentido, por ejemplo, si X, aumenta, Y aumenta), o inversas (si X aumenta, Y disminuye).
                      
       .tarjeta.color-secundario--borde.contenido-tarjeta.p-3(x="72%" y="40%" numero="+")
           .row.justify-content-center 
@@ -224,10 +224,10 @@
     p.mt-5.mb-5 Las medidas más utilizadas y conocidas son:  
     
       .row.justify-content-center
-        .col-md-10    
+        .col-lg-10    
           .row.justify-content-center
-            .col-md-4
-              .tarjeta.color-verde-contenido-tarjeta.h-tarjetas.p-3     
+            .col-lg-4.col-md-6.col-8.mb-4
+              .tarjeta.color-verde-contenido-tarjeta.h-100.p-3     
                 .row.justify-content-center 
                   .col-md-5
                     figure 
@@ -235,8 +235,8 @@
                   h4.mt-5.mb-3.text-center Media aritmética  
                   p.mb-0 Conocida como promedio, es el valor que tendrían los datos, si todos ellos fueran iguales o, también, el valor que correspondería a cada uno de los datos de la distribución si su suma total se repartiera por igual.
 
-            .col-md-4
-              .tarjeta.color-verde-contenido-tarjeta.h-tarjetas.p-3     
+            .col-lg-4.col-md-6.col-8.mb-4
+              .tarjeta.color-verde-contenido-tarjeta.h-100.p-3     
                 .row.justify-content-center 
                   .col-md-5
                     figure 
@@ -244,8 +244,8 @@
                   h4.mt-5.mb-3.text-center Mediana  
                   p.mb-0 Si se ordenan todos los datos, de menor a mayor, es el valor que ocupa la posición central. Si el número de datos es par, la mediana es la media aritmética de los dos centrales.
 
-            .col-md-4
-              .tarjeta.color-verde-contenido-tarjeta.h-tarjetas.p-3     
+            .col-lg-4.col-md-6.col-8.mb-4
+              .tarjeta.color-verde-contenido-tarjeta.h-100.p-3     
                 .row.justify-content-center 
                   .col-md-5
                     figure 

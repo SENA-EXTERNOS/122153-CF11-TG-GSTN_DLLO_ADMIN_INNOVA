@@ -132,26 +132,27 @@ export default {
     {
       tema: 'Analítica de datos',
       referencia:
-        'Virtual Training Lteam. (2016). Análisis de Datos (video). YouTube.',
+        'Virtual Training Lteam. (2016). <em>Análisis de Datos</em> (video). YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/sv6yaVunVms',
     },
     {
       tema: 'Big data',
-      referencia: 'EDteam. (2019). ¿Qué es el Big Data? (video). YouTube.',
+      referencia:
+        'EDteam. (2019). <em>¿Qué es el Big Data? (video).</em> YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/M26iIqmqWkI',
     },
     {
       tema: 'Paquetes ofimáticos aplicados al modelado de datos ',
-      referencia: 'Concepto.de. (s.f.). Base de datos.',
+      referencia: 'Concepto.de. (s.f.). <em>Base de datos.</em>',
       tipo: 'Página web',
       link: 'https://concepto.de/base-de-datos/#ixzz7d75P9SNx',
     },
     {
       tema: 'Paquetes ofimáticos aplicados al modelado de datos',
       referencia:
-        'Powerdata.es. (2017). 10 técnicas de análisis de datos para estadísticas de big data. ',
+        'Powerdata.es. (2017). <em>10 técnicas de análisis de datos para estadísticas de big data.</em> ',
       tipo: 'Página web',
       link:
         'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/10-tecnicas-de-analisis-de-datos-para-estadisticas-de-big-data',
@@ -186,7 +187,7 @@ export default {
     {
       termino: 'Desviación estándar',
       significado:
-        'es un índice numérico de mide la dispersión con respecto al parámetro que agrupa la distribución de los datos, midiendo el grado de alejamiento (el dato disperso n menos la medida de tendencia central como la media) con respecto a esta, de cada dato individualmente; luego se suman todas estas diferencias, dividido por el número de datos; realmente es un promedio de las diferencias de los datos con respecto a la media. (Nota: se toma la distribución de datos como la población objeto de estudio denominado n).',
+        'es un índice numérico que mide la dispersión con respecto al parámetro que agrupa la distribución de los datos, midiendo el grado de alejamiento (el dato disperso n menos la medida de tendencia central como la media) con respecto a esta, de cada dato individualmente; luego se suman todas estas diferencias, dividido por el número de datos; realmente es un promedio de las diferencias de los datos con respecto a la media. (Nota: se toma la distribución de datos como la población objeto de estudio denominado n).',
     },
     {
       termino: 'Estadística',
@@ -201,7 +202,7 @@ export default {
     {
       termino: 'Modelo matemático',
       significado:
-        'es la representación simbólica en lenguaje o términos matemáticos, de cualquier evento o fenómeno físico, químico, económico, social o tecnológico',
+        'es la representación simbólica en lenguaje o términos matemáticos, de cualquier evento o fenómeno físico, químico, económico, social o tecnológico.',
     },
     {
       termino: 'Población',
@@ -211,13 +212,12 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Castillo, J. A. (2018). Big Data. IFCT128PO. IC Editorial.',
-      link: '',
+      referencia:
+        'Castillo, J. A. (2018). <em>Big Data</em>. IFCT128PO. IC Editorial.',
     },
     {
       referencia:
-        'Hillier, F. S. y Lieberman, G. J. (2006). Introducción a la investigación de operaciones (8va ed.). Mc Graw Hill.',
-      link: '',
+        'Hillier, F. S. y Lieberman, G. J. (2006). <em>Introducción a la investigación de operaciones</em> (8va ed.). Mc Graw Hill.',
     },
   ],
   creditos: {
